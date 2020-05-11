@@ -21,7 +21,7 @@
 }
 
 .root ul li :hover {
-  background: wheat;
+  background: peru;
 }
 
 .root .creator {
@@ -33,6 +33,24 @@
 
 .root .creator a {
   color: pink;
+}
+
+.flappy-skel {
+  margin-top: 3rem;
+  text-align: center;
+  color: greenyellow;
+}
+
+.flappy-skel canvas {
+  border: 10px solid burlywood;
+  background: #f1f1f1;
+}
+
+.flappy-skel button {
+  height: 2rem;
+  width: 10rem;
+  color: green;
+  background: white;
 }
 
 .memory h2 {

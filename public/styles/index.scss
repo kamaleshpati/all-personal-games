@@ -16,7 +16,7 @@
                 color: greenyellow;
             }
              :hover {
-                background: wheat;
+                background: peru;
             }
         }
     }
@@ -28,6 +28,22 @@
         a {
             color: pink;
         }
+    }
+}
+
+.flappy-skel {
+    margin-top: 3rem;
+    text-align: center;
+    color: greenyellow;
+    canvas {
+        border: 10px solid burlywood;
+        background: #f1f1f1;
+    }
+    button {
+        height: 2rem;
+        width: 10rem;
+        color: green;
+        background: white;
     }
 }
 
