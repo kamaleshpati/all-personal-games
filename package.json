@@ -1,11 +1,11 @@
 {
-    "name": "first",
+    "name": "personal-games",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "sass --watch public/index.scss:public/index.css && nodemon server.js",
-        "start": "rm -rf public/index.css.map && rm -rf public/index.min.css && node server.js"
+        "dev": "sass --watch public/styles/index.scss:public/styles/index.css & nodemon server.js",
+        "start": "rm -rf public/styles/index.css.map && rm -rf public/styles/index.min.css & node server.js"
     },
     "keywords": [],
     "author": "",

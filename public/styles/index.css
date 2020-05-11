@@ -1,0 +1,57 @@
+* {
+  background-image: linear-gradient(to right, #2e4053, black);
+}
+
+.root {
+  text-align: center;
+}
+
+.root h1 {
+  color: red;
+}
+
+.root ul li {
+  list-style: none;
+  display: block;
+  margin-top: 1rem;
+}
+
+.root ul li a {
+  color: greenyellow;
+}
+
+.root ul li :hover {
+  background: wheat;
+}
+
+.root .creator {
+  color: greenyellow;
+  position: fixed;
+  bottom: 30px;
+  left: 600px;
+}
+
+.root .creator a {
+  color: pink;
+}
+
+.memory h2 {
+  top: 0;
+  height: 5rem;
+  width: 100%;
+  text-align: center;
+  color: red;
+  background-color: blue;
+}
+
+.memory .grid {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 30rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 400px;
+}
