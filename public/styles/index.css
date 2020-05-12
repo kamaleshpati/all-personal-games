@@ -77,7 +77,7 @@ body {
 
 .space-game {
   padding-left: 25rem;
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 .space-game h3 {
@@ -90,7 +90,7 @@ body {
   flex-wrap: wrap;
   border: 5px solid skyblue;
   width: 300px;
-  height: 300px;
+  height: 500px;
 }
 
 .space-game .grid div {
@@ -112,7 +112,7 @@ body {
 }
 
 .space-game .grid .laser {
-  width: 2px;
+  width: 5px;
   background-color: orange;
 }
 
