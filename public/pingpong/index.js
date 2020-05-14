@@ -66,10 +66,12 @@ class Ball {
         this.draw();
     }
 }
+
 var ball = new Ball(200, 200);
 var board = new Board();
 var x;
 var res = 0;
+
 canvas.addEventListener("mousemove", (event) => {
     x = event.x;
 });

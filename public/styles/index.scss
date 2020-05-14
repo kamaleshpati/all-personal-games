@@ -5,6 +5,14 @@ body {
 
 .root {
     text-align: center;
+    #canvas1 {
+        float: left;
+        background: skyblue;
+    }
+    #canvas2 {
+        float: right;
+        background: yellowgreen;
+    }
     h1 {
         color: red;
     }
@@ -18,6 +26,9 @@ body {
             }
              :hover {
                 background: peru;
+                font-size: 30px;
+                color: wheat;
+                z-index: 100;
             }
         }
     }
